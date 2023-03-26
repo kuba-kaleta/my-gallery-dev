@@ -12,18 +12,32 @@ const router = createRouter({
     {
       path: '/about',
       name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
     },
     {
       path: '/galleries',
       name: 'galleries',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/GalleriesView.vue')
+    },
+    {
+      path: '/lowerSilesia',
+      name: 'lowerSilesia',
+      component: () => import('../components/LowerSilesia.vue')
+    },
+    {
+      path: '/silesia',
+      name: 'silesia',
+      component: () => import('../components/Silesia.vue')
+    },
+    {
+      path: '/lesserPoland',
+      name: 'lesserPoland',
+      component: () => import('../components/LesserPoland.vue')
+    },
+    {
+      path: '/pomeranian',
+      name: 'pomeranian',
+      component: () => import('../components/Pomeranian.vue')
     }
   ]
 })

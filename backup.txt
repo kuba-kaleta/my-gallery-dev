@@ -1,0 +1,61 @@
+<script>
+import "glightbox/dist/css/glightbox.css";
+import "glightbox/dist/js/glightbox.js";
+import GLightbox from 'glightbox';
+export default {
+
+  mounted() {
+    //lightbox settings
+    this.lightbox = GLightbox({
+      selector: ".glightbox"
+    });
+  }
+}
+
+</script>
+
+<template>
+  <ul>
+    <li style="list-style-type: none;">
+      <a href="https://www.gstatic.com/webp/gallery3/1.png" class="glightbox"
+        data-glightbox="title: Rudno Castle; description: .custom-desc1; descPosition: left;">
+        <img style="height: 300px;" src="@/assets/img/2021_02_12_11h41_4.93MB.jpg" alt="image" />
+      </a>
+      <div class="glightbox-desc custom-desc1">
+        <p>12.02.2021</p>
+      </div>
+    </li>
+
+    <li style="list-style-type: none;">
+      <a href="https://kaleta.toadres.pl/assets/2021_02_12_16h50_2.04MB-d4714a20.jpg" class="glightbox"
+        data-glightbox="title: Your title; description: description here; descPosition: left;">
+        <img style="height: 300px;" src="@/assets/img/2021_02_12_16h50_2.04MB.jpg" alt="image" />
+      </a>
+    </li>
+
+    <li style="list-style-type: none;">
+      <a href="https://kaleta.toadres.pl/assets/2021_02_13_15h25_3.95MB-97db6230.jpg" class="glightbox"
+        data-glightbox="title: Your title; description: description here; descPosition: left;">
+        <img style="height: 300px;" src="@/assets/img/2021_02_13_15h25_3.95MB.jpg" alt="image" />
+      </a>
+    </li>
+
+    <li style="list-style-type: none;">
+      <a href="https://kaleta.toadres.pl/assets/2021_02_14_16h33_2.33MB-a1613de8.jpg" class="glightbox">
+        <img style="height: 300px;" src="@/assets/img/2021_02_14_16h33_2.33MB.jpg" alt="image" />
+      </a>
+    </li>
+  </ul>
+</template>
+
+<style>
+
+li {
+  float: left;
+  padding: 8px 8px;
+}
+
+div {
+  justify-content: center;
+}
+</style>
