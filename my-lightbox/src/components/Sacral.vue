@@ -2,7 +2,7 @@
     <ul>
         
         <li style="list-style-type: none;">
-            <a href="https://kaleta.toadres.pl/assets/2021_02_14_16h33_2.33MB-a1613de8.jpg" class="glightbox">
+            <a href="https://kaleta.toadres.pl/assets/2020_10_03_16h57_3.08MB-8e40c26f.jpg" class="glightbox">
                 <div class="img__wrap">
                     <img class="img__img" style="height: 300px;" src="@/assets/sacral/2020_10_03_16h57_3.08MB.jpg"
                         alt="image" />
@@ -11,7 +11,7 @@
             </a>
         </li>
         <li style="list-style-type: none;">
-            <a href="https://kaleta.toadres.pl/assets/2021_02_14_16h33_2.33MB-a1613de8.jpg" class="glightbox">
+            <a href="https://kaleta.toadres.pl/assets/2021_02_12_12h50_2.77MB-097acfcf.jpg" class="glightbox">
                 <div class="img__wrap">
                     <img class="img__img" style="height: 300px;" src="@/assets/sacral/2021_02_12_12h50_2.77MB.jpg"
                         alt="image" />
@@ -20,7 +20,7 @@
             </a>
         </li>
         <li style="list-style-type: none;">
-            <a href="https://kaleta.toadres.pl/assets/2021_02_12_11h41_4.93MB-8530b62f.jpg" class="glightbox">
+            <a href="https://kaleta.toadres.pl/assets/2020_07_11_17h32_2.98MB-e90b0c19.jpg" class="glightbox">
                 <div class="img__wrap2">
                     <img class="img__img" style="height: 300px;" src="@/assets/sacral/2020_07_11_17h32_2.98MB.jpg"
                         alt="image" />
@@ -38,7 +38,7 @@
             </a>
         </li-->
         <li style="list-style-type: none;">
-            <a href="https://kaleta.toadres.pl/assets/2021_02_14_16h33_2.33MB-a1613de8.jpg" class="glightbox">
+            <a href="https://kaleta.toadres.pl/assets/2021_10_09_21h34_2.56MB-39644118.jpg" class="glightbox">
                 <div class="img__wrap">
                     <img class="img__img" style="height: 300px;" src="@/assets/sacral/2021_10_09_21h34_2.56MB.jpg"
                         alt="image" />
@@ -63,62 +63,3 @@ export default {
     }
 }
 </script>
-    
-<style scoped>
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-/* relevant styles */
-.img__wrap {
-    position: relative;
-    height: 300px;
-    width: 225px;
-    display: flex;
-    text-align: center;
-}
-
-.img__wrap2 {
-    position: relative;
-    height: 300px;
-    width: 400px;
-    display: flex;
-    text-align: center;
-}
-
-.img__description {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(172, 184, 191, 0.72);
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-    padding-top: 140px;
-
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s;
-}
-
-.img__wrap:hover .img__description {
-    visibility: visible;
-    opacity: 1;
-}
-
-.img__wrap2:hover .img__description {
-    visibility: visible;
-    opacity: 1;
-}
-
-li {
-    float: left;
-    padding: 8px 8px;
-}
-
-div {
-    justify-content: center;
-}</style>
