@@ -3,7 +3,7 @@
     <li style="list-style-type: none;">
       <a href="https://kaleta.toadres.pl/assets/2021_02_12_11h41_4.93MB-8530b62f.jpg" class="glightbox">
         <div class="img__wrap">
-          <img class="img__img" style="height: 300px;" src="@/assets/img/2021_02_12_11h41_4.93MB.jpg" alt="image" />
+          <img class="img__img" style="height: 300px;" src="@/assets/2021_02_12_11h41_4.93MB.jpg" alt="image" />
           <p class="img__description">Tenczyn castle in Rudno</p>
         </div>
       </a>
@@ -11,19 +11,28 @@
 
     <li style="list-style-type: none;">
       <a href="https://kaleta.toadres.pl/assets/2021_02_12_16h50_2.04MB-d4714a20.jpg" class="glightbox">
-        <img style="height: 300px;" src="@/assets/img/2021_02_12_16h50_2.04MB.jpg" alt="image" />
+        <div class="img__wrap">
+          <img class="img__img" style="height: 300px;" src="@/assets/2021_02_12_16h50_2.04MB.jpg" alt="image" />
+          <p class="img__description">Czchów Castle</p>
+        </div>
       </a>
     </li>
 
     <li style="list-style-type: none;">
       <a href="https://kaleta.toadres.pl/assets/2021_02_13_15h25_3.95MB-97db6230.jpg" class="glightbox">
-        <img style="height: 300px;" src="@/assets/img/2021_02_13_15h25_3.95MB.jpg" alt="image" />
+        <div class="img__wrap">
+          <img class="img__img" style="height: 300px;" src="@/assets/2021_02_13_15h25_3.95MB.jpg" alt="image" />
+          <p class="img__description">"Sokola perć" in Pieniny Mts</p>
+        </div>
       </a>
     </li>
 
     <li style="list-style-type: none;">
       <a href="https://kaleta.toadres.pl/assets/2021_02_14_16h33_2.33MB-a1613de8.jpg" class="glightbox">
-        <img style="height: 300px;" src="@/assets/img/2021_02_14_16h33_2.33MB.jpg" alt="image" />
+        <div class="img__wrap">
+          <img class="img__img" style="height: 300px;" src="@/assets/2021_02_14_16h33_2.33MB.jpg" alt="image" />
+          <p class="img__description">Siewierz Castle</p>
+        </div>
       </a>
     </li>
   </ul>
@@ -44,7 +53,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 * {
   margin: 0;
   padding: 0;
@@ -56,6 +65,14 @@ export default {
   position: relative;
   height: 300px;
   width: 225px;
+  display: flex;
+  text-align: center;
+}
+
+.img__wrap2 {
+  position: relative;
+  height: 300px;
+  width: 400px;
   display: flex;
   text-align: center;
 }
@@ -81,9 +98,14 @@ export default {
   opacity: 1;
 }
 
+.img__wrap2:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
 li {
   float: left;
-  padding: 8px 8px;
+  padding: 6px 6px;
 }
 
 div {

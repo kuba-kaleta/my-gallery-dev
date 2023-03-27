@@ -20,24 +20,29 @@ const router = createRouter({
       component: () => import('../views/GalleriesView.vue')
     },
     {
-      path: '/lowerSilesia',
-      name: 'lowerSilesia',
-      component: () => import('../components/LowerSilesia.vue')
+      path: '/castles',
+      name: 'castles',
+      component: () => import('../components/Castles.vue')
     },
     {
-      path: '/silesia',
-      name: 'silesia',
-      component: () => import('../components/Silesia.vue')
+      path: '/impr',
+      name: 'impr',
+      component: () => import('../components/Impr.vue')
     },
     {
-      path: '/lesserPoland',
-      name: 'lesserPoland',
-      component: () => import('../components/LesserPoland.vue')
+      path: '/sacral',
+      name: 'sacral',
+      component: () => import('../components/Sacral.vue')
     },
     {
-      path: '/pomeranian',
-      name: 'pomeranian',
-      component: () => import('../components/Pomeranian.vue')
+      path: '/nature',
+      name: 'nature',
+      component: () => import('../components/Nature.vue')
+    },
+    {
+      path: '/baltic',
+      name: 'baltic',
+      component: () => import('../components/Baltic.vue')
     }
   ]
 })

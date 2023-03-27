@@ -4,20 +4,20 @@
 <template>
     <div class="divfont">
       <ul>
-        <li style="list-style-type: none;">
-          <RouterLink to="/lowerSilesia">Lower Silesia</RouterLink>
+        <li>
+          <RouterLink to="/castles">Castles of southern Poland</RouterLink>
         </li>
-
-        <li style="list-style-type: none;">
-          <RouterLink to="/silesia">Silesia</RouterLink>
+        <li>
+          <RouterLink to="/impr">Impressive structures</RouterLink>
         </li>
-
-        <li style="list-style-type: none;">
-          <RouterLink to="/lesserPoland">Lesser Poland</RouterLink>
+        <li>
+          <RouterLink to="/sacral">Sacral architecture</RouterLink>
         </li>
-
-        <li style="list-style-type: none;">
-          <RouterLink to="/pomeranian">Pomeranian</RouterLink>
+        <li>
+          <RouterLink to="/nature">Nature and mountains</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/baltic">Baltic coast</RouterLink>
         </li>
       </ul>
     </div>
@@ -34,6 +34,7 @@
 
 .divfont {
   font-size: 1.5em;
+  width: 350px;
 }
 
 .container {
