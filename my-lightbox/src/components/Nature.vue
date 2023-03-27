@@ -26,7 +26,7 @@
     </li>    
 
     <li style="list-style-type: none;">
-      <a href="https://kaleta.toadres.pl/assets/2021_02_12_16h50_2.04MB-d4714a20.jpg" class="glightbox">
+      <a href="https://kaleta.toadres.pl/assets/2020_10_02_14h31_2.70MB-4e611be3.jpg" class="glightbox">
         <div class="img__wrap">
           <img class="img__img" style="height: 300px;" src="@/assets/nature/2020_10_02_14h31_2.70MB.jpg" alt="image" />
           <p class="img__description">Ostrężnik Cave</p>
@@ -34,7 +34,7 @@
       </a>
     </li>
     <li style="list-style-type: none;">
-      <a href="https://kaleta.toadres.pl/assets/2021_02_12_11h41_4.93MB-8530b62f.jpg" class="glightbox">
+      <a href="https://kaleta.toadres.pl/assets/2021_08_12_14h57_6.32MB-f931274d.jpg" class="glightbox">
         <div class="img__wrap">
           <img class="img__img" style="height: 300px;" src="@/assets/nature/2021_08_12_14h57_6.32MB.jpg" alt="image" />
           <p class="img__description">Bison Reserve in Białowieża</p>

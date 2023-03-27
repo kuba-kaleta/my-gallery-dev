@@ -1,7 +1,7 @@
 <template>
   <ul>
     <li style="list-style-type: none;">
-      <a href="https://kaleta.toadres.pl/assets/2021_02_14_16h33_2.33MB-a1613de8.jpg" class="glightbox">
+      <a href="https://kaleta.toadres.pl/assets/2021_05_15_20h45_2.45MB-1933ca63.jpg" class="glightbox">
         <div class="img__wrap">
           <img class="img__img" style="height: 300px;" src="@/assets/impr/2021_05_15_20h45_2.45MB.jpg" alt="image" />
           <p class="img__description">Raczyński Library Poznań</p>
@@ -25,7 +25,7 @@
       </a>
     </li>
     <li style="list-style-type: none;">
-      <a href="https://kaleta.toadres.pl/assets/2021_02_14_16h33_2.33MB-a1613de8.jpg" class="glightbox">
+      <a href="https://kaleta.toadres.pl/assets/2021_07_18_16h23_3.14MB-2a8eb542.jpg" class="glightbox">
         <div class="img__wrap">
           <img class="img__img" style="height: 300px;" src="@/assets/impr/2021_07_18_16h23_3.14MB.jpg" alt="image" />
           <p class="img__description">Dobrzyca</p>
